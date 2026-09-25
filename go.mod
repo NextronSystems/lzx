@@ -1,3 +1,3 @@
-module github.com/secDre4mer/lzx
+module github.com/NextronSystems/lzx
 
 go 1.20

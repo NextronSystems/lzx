@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math"
 
-	"github.com/secDre4mer/lzx/internal/bitstream"
+	"github.com/NextronSystems/lzx/internal/bitstream"
 )
 
 func readTree(stream *bitstream.BitStream, lengthBits int, size int) (*Tree, error) {

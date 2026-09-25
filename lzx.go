@@ -3,8 +3,8 @@ package lzx
 import (
 	"io"
 
-	"github.com/secDre4mer/lzx/internal/bitstream"
-	"github.com/secDre4mer/lzx/internal/slidingwindow"
+	"github.com/NextronSystems/lzx/internal/bitstream"
+	"github.com/NextronSystems/lzx/internal/slidingwindow"
 )
 
 func New(reader io.Reader, windowSize int, resetInterval int) (io.Reader, error) {
